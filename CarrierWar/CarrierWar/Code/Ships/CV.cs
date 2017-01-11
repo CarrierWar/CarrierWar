@@ -15,8 +15,8 @@ namespace CarrierWar.Ships
             this.HullNumber = HullNumber;
             this.Name = Name;
 
-            //System.Windows.Controls.ContextMenu TheMenu = new System.Windows.Controls.ContextMenu();
-            //PushPin.ContextMenu = new System.Windows.Controls.ContextMenu();
+            ////System.Windows.Controls.ContextMenu TheMenu = new System.Windows.Controls.ContextMenu();
+            ////PushPin.ContextMenu = new System.Windows.Controls.ContextMenu();
 
             PushPin = new Pushpin();
             PushPin.Location = new Location();
