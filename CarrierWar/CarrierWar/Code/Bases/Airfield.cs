@@ -13,7 +13,7 @@ namespace CarrierWar.Bases
 
         public double RunwayLength;
 
-        public Equipment.Radar Radar;
+        //public Equipment.Radar Radar;
 
         public double ApronSpace; // Square footage for storing aircraft
 

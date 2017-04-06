@@ -26,6 +26,14 @@ namespace CarrierWar
 
         public MainWindow()
             {
+
+            Equipment.Radar ThisRadar = new Equipment.Radar("T-1");
+            Console.WriteLine(ThisRadar.Detect(20, 20000, 5));
+
+
+
+
+
             InitializeComponent();
 
 

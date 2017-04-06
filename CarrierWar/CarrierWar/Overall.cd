@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CarrierWar.App" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.GlobalVariables" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Code\GlobalVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.Ship" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAABIAAAIAEAA0gECAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Code\Ships\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.Unit" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Code\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarrierWar.Bases.Airfield" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAIAAAAAoAAAAAAEABACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Code\Bases\Airfield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.Equipment.Radar">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAIAAAAAAAAAQAACAAAAAAAAAAAAAABAg=</HashCode>
+      <FileName>Code\Equipment\Radar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.GameMechanics.Movement" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAA=</HashCode>
+      <FileName>Code\Game Mechanics\Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.GameMechanics.Location" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Game Mechanics\Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.GameMechanics.Observation" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Code\Game Mechanics\Observation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.GameMechanics.Timer" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAABAA=</HashCode>
+      <FileName>Code\Game Mechanics\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.Ships.CV" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAgAAAQAAAAgAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Ships\CV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.TaskForces.TaskForce" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Code\Task Forces\TaskForce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
