@@ -21,7 +21,7 @@
       <FileName>Code\Ships\Ship.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CarrierWar.Unit" Collapsed="true">
+  <Class Name="CarrierWar.Unit">
     <Position X="1.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
@@ -37,14 +37,14 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="CarrierWar.Bases.Airfield" Collapsed="true">
-    <Position X="4" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAABAAAIAAAAAoAAAAAAEABACAAAAAAAAAAAAQ=</HashCode>
+      <HashCode>EAAEAACgBAgAIAAAAAgBAAAAAGAFACFAAAAAAAAAAIQ=</HashCode>
       <FileName>Code\Bases\Airfield.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="CarrierWar.Equipment.Radar">
-    <Position X="4.5" Y="4.75" Width="1.5" />
+  <Class Name="CarrierWar.Equipment.Radar" Collapsed="true">
+    <Position X="1.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAACAAACAIAAAAAAAAAQAACAAAAAAAAAAAAAABAg=</HashCode>
       <FileName>Code\Equipment\Radar.cs</FileName>
@@ -102,6 +102,13 @@
     <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarrierWar.AntiAircraftGun">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AntiAircraftGun.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
