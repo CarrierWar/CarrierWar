@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using CarrierWar;
 
 namespace CarrierWar.GameMechanics
     {
-    class Timer
+    public class Timer
         {
 
         private static System.Timers.Timer aTimer;
@@ -28,25 +29,44 @@ namespace CarrierWar.GameMechanics
         private static void SetTimer()
             {
             // Create a timer with a two second interval.
-            aTimer = new System.Timers.Timer(10000);
+            aTimer = new System.Timers.Timer(5000);
             // Hook up the Elapsed event for the timer. 
-            aTimer.Elapsed += OnTimedEvent;
-            aTimer.AutoReset = true;
-            aTimer.Enabled = true;
+            //aTimer.Elapsed += OnTimedEvent;
+            //aTimer.AutoReset = true;
+            //aTimer.Enabled = true;
             }
 
-        private static void OnTimedEvent(Object source, ElapsedEventArgs e)
-            {
-            Console.WriteLine("The Elapsed event was raised at {0:HH:mm:ss.fff}",
-                              e.SignalTime);
+        //public static void OnTimedEvent//(Object source, ElapsedEventArgs e)
+            //{
 
-            foreach (var item in CarrierWar.GlobalVariables.TheFleet)
-                {
-                Console.WriteLine(item);
-                }
+
+            // Loop the task forces
+            //foreach (CarrierWar.TaskForces.TaskForce TheTaskForce in CarrierWar.GlobalVariables.TheFleet)
+            //    {
+
+            //    // Now loop the ships 
+            //    foreach (CarrierWar.Ships.CV TheShip in TheTaskForce.OrderOfBattle)
+            //        {
+
+            //        TheShip.Move();
+
+            //        }
+
+
+            //    }
+
+            //BattleSpace.UpdateLayout();
+            //BattleSpace.BringIntoView();
+
+            //BattleSpace.Focus();
+
+            //GameMechanics.Movement.Distance(Yorktown.Location, Enterprise.Location);
+
+
+
 
             }
         }
 
-    }
+    
 

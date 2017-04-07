@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace CarrierWar
+namespace CarrierWar.Code
     {
-    public class AntiAircraftGun
+    class ShipTypes
         {
-        private int MaximumAltitude;
         }
     }

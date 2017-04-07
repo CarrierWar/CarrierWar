@@ -5,24 +5,56 @@ using System.Linq;
 
 namespace CarrierWar.Ships
     {
-    class CV : Ship
+    public class CV : Ship
         {
 
-        public void Construct(string Type, string HullNumber, string Name)
+        public int AircraftCapacity { get; private set; }
+        public int AircraftFuel { get; private set; }
+        public int Torpodoes { get; private set; }
+        public int Bombs { get; private set; }
+
+
+        public CV(string HullNumber)
             {
 
-           this.Type = Type;
-            this.HullNumber = HullNumber;
-            this.Name = Name;
+            switch (HullNumber)
+                {
 
-            ////System.Windows.Controls.ContextMenu TheMenu = new System.Windows.Controls.ContextMenu();
-            ////PushPin.ContextMenu = new System.Windows.Controls.ContextMenu();
+                case "CV-1": // Langley
+                    break;
+                case "CV-2": // Lexington
+                    break;
+                case "CV-3": // Saratoga
+                    break;
+                case "CV-4": // Ranger
+                    break;
+                case "CV-5": // Yorktown
+                    AircraftCapacity = 50;
+                    MaxSpeed = 20;                    
+                    Location.Latitude = -8;
+                    Location.Longitude = 155.407007;
+                    Course = 100;
+                    Speed = 22;
+                    HullNumber = "CV-5";
+                    break;
+                case "CV-6": // Enterprise
+                    AircraftCapacity = 50;
+                    MaxSpeed = 40;
+                    Location.Latitude = -8;
+                    Location.Longitude = 155.407007;
+                    Course = 20;
+                    Speed = 15;
+                    HullNumber = "CV-6";
+                    break;
+                case "CV-7": // Wasp
+                    break;
+                case "CV-8": // Hornet
+                    break;
+                }
 
-            PushPin = new Pushpin();
-            PushPin.Location = new Location();
-            PushPin.Location.Latitude = CurrentLocation.Latitude;
-            PushPin.Location.Longitude = CurrentLocation.Longititude;
-
+            LocationPushpin.Location = new Location();
+            LocationPushpin.Location.Latitude = Location.Latitude;
+            LocationPushpin.Location.Longitude = Location.Longitude;
 
             }
 
@@ -31,54 +63,11 @@ namespace CarrierWar.Ships
 
 
 
-        public int AircraftCapacity
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
 
-            set
-                {
-                }
-            }
 
-        public int AircraftFuel
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
 
-            set
-                {
-                }
-            }
 
-        public int Torpedos
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
 
-            set
-                {
-                }
-            }
 
-        public int Bombs
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-       
         }
     }

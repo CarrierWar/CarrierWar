@@ -39,7 +39,7 @@ namespace CarrierWar.GameMechanics
             Angle endBearing;
             GlobalCoordinates dest = geoCalc.CalculateEndingGlobalCoordinates(reference, StartPosition, startBearing, distance, out endBearing);
 
-            return new Location { Latitude = Convert.ToDouble(dest.Latitude.Degrees), Longititude=Convert.ToDouble(dest.Longitude.Degrees) };
+            return new Location { Latitude = Convert.ToDouble(dest.Latitude.Degrees), Longitude=Convert.ToDouble(dest.Longitude.Degrees) };
             
             }
 
@@ -60,10 +60,10 @@ namespace CarrierWar.GameMechanics
             Ellipsoid reference = Ellipsoid.WGS84;
 
             GlobalCoordinates FirstUnit;
-            FirstUnit = new GlobalCoordinates(new Angle(Location1.Latitude), new Angle(Location1.Longititude ));
+            FirstUnit = new GlobalCoordinates(new Angle(Location1.Latitude), new Angle(Location1.Longitude ));
 
             GlobalCoordinates SecondUnit;
-            SecondUnit = new GlobalCoordinates(new Angle(Location2.Latitude), new Angle(Location2.Longititude));
+            SecondUnit = new GlobalCoordinates(new Angle(Location2.Latitude), new Angle(Location2.Longitude));
 
             // calculate the geodetic curve
             GeodeticCurve geoCurve = geoCalc.CalculateGeodeticCurve(reference, FirstUnit, SecondUnit);
@@ -92,7 +92,7 @@ namespace CarrierWar.GameMechanics
         
         public double Latitude;
 
-        public double Longititude;
+        public double Longitude;
 
         }
     

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Maps.MapControl.WPF;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,18 +10,11 @@ namespace CarrierWar
     /// <summary>
     /// Any military unit such as a ship, aircraft etc.
     /// </summary>
-    class Unit
+    public class Unit
         {
-        public int Nationality
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
+        public string Nationality { get; private set; }
+        public GameMechanics.Location Location { get; set; } = new GameMechanics.Location();
+        public Pushpin LocationPushpin { get; set; } = new Pushpin();
+        
         }
     }

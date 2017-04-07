@@ -12,13 +12,25 @@ namespace CarrierWar.TaskForces
     class TaskForce
         {
         public List<CarrierWar.Ship> OrderOfBattle = new List<CarrierWar.Ship>();
-        
-        public void Join()
+        private string Designation;
+
+
+
+
+
+        /// <summary>
+        /// Add the contents of another Task Force into this one
+        /// </summary>
+        public void Attach(Ships.CV TheShip)
             {
-            throw new System.NotImplementedException();
+            OrderOfBattle.Add(TheShip);
+
             }
 
-        public void Leave()
+        /// <summary>
+        /// Remove the specific ships from this Task Force and place them in their own Task Force
+        /// </summary>
+        public void Detach()
             {
             throw new System.NotImplementedException();
             }

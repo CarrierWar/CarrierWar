@@ -9,107 +9,59 @@ namespace CarrierWar.Bases
     public class Airfield
         {
 
-        public GameMechanics.Location _Location;
+        /// <summary>
+        /// ff
+        /// </summary>
+        private GameMechanics.Location Location;
 
-        public int _RunwayLength;
+        /// <summary>
+        /// ff
+        /// </summary>
+        private int RunwayLength;
 
-        public Equipment.Radar Radar;
+        /// <summary>
+        /// ff
+        /// </summary>
+        private Equipment.Radar Radar;
 
-        public int _ApronSpace = 0; // Square footage for storing aircraft
+        /// <summary>
+        /// The total aircraft storage capasity
+        /// </summary>
+        private int ApronSpace = 0;
 
-        public int _LandingCapasity; // Minutes to land each craft
+        /// <summary>
+        /// The number of aircraft that can land per minute
+        /// </summary>
+        private int LandingCapasity; // Minutes to land each craft
 
-        public int _CurrentAviationFuel; // Gallons og AvGas
+        /// <summary>
+        /// The current amount of fuel stored on the base
+        /// </summary>
+        private int CurrentAviationFuel; // Gallons og AvGas
 
-        public int _MaxAviationFuel; // The most it can store
+        /// <summary>
+        /// The most amount of fuel that can be stored on the base
+        /// </summary>
+        private int MaxAviationFuel; // The most it can store
 
-        public int _Bombs; //  Number of bombs aviable
+        /// <summary>
+        /// Number of bmobs available on base
+        /// </summary>
+        private int Bombs; //  Number of bombs aviable
 
-        public int _Torpodoes; // number of torpodes aviable
+        /// <summary>
+        /// Number of torpedoes avialable on base
+        /// </summary>
+        private int Torpodoes;
+        /// <summary>
+        /// To collection of air defenses equipment
+        /// </summary>
+        private List<AntiAircraftGun> AirDefenses;
 
-        public int Bombs
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int Torpodoes
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int ApronSpace
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int CurrentAviationFuel
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int LandingCapasity
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int MaxAviationFuel
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int RunwayLength
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
+        /// <summary>
+        /// ff
+        /// </summary>
+       
 
         public void Damage(int Effort)
             {

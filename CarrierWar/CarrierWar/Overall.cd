@@ -17,7 +17,7 @@
   <Class Name="CarrierWar.Ship" Collapsed="true">
     <Position X="1.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAIAABIAAAIAEAA0gECAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>EABAAAIgEIAAhIAABIIEIAUhACAAAAEAAQAAAABABAA=</HashCode>
       <FileName>Code\Ships\Ship.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -39,7 +39,7 @@
   <Class Name="CarrierWar.Bases.Airfield" Collapsed="true">
     <Position X="3.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAEAACgBAgAIAAAAAgBAAAAAGAFACFAAAAAAAAAAIQ=</HashCode>
+      <HashCode>EAAEIACgBAgQIAAAAAgBAAAAAGAFACFAAAAAAAAAAIQ=</HashCode>
       <FileName>Code\Bases\Airfield.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -79,16 +79,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="CarrierWar.Ships.CV" Collapsed="true">
-    <Position X="1.5" Y="3.25" Width="1.5" />
+    <Position X="1.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAAgAAAQAAAAgAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAIAAAAAAAAAQAABAgAAAEAAAAAAAAAAAgEAAAA=</HashCode>
       <FileName>Code\Ships\CV.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CarrierWar.TaskForces.TaskForce" Collapsed="true">
-    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Position X="5.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAQgAAAEAIAAAAAAAAAAIAAAgAAAAAAAAAAAAA=</HashCode>
       <FileName>Code\Task Forces\TaskForce.cs</FileName>
     </TypeIdentifier>
   </Class>

@@ -6,9 +6,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CarrierWar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="469.547" Width="877.881"><Grid>
-    <m:Map Name="BattleSpace" CredentialsProvider="Ai-u564I70NguZwXKq2PChBEbS_rGnswwD4VxmhctIkPJIIoEagcSKESy6X2lrY8" Center="-8.0, -155.407007" ZoomLevel="4" Margin="0,0,20,17"/>
-    <Button x:Name="btn_Start" Content="Button" HorizontalAlignment="Left" Margin="763,393,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        Title="MainWindow" Height="506.763" Width="877.881"><Grid>
+    <m:Map Name="BattleSpace" CredentialsProvider="Ai-u564I70NguZwXKq2PChBEbS_rGnswwD4VxmhctIkPJIIoEagcSKESy6X2lrY8" Center="-8.0, -155.407007" ZoomLevel="4" Margin="0,0,20,54"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="538,446,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="665,446,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click"/>
 
-</Grid>
+    </Grid>
 </Window>

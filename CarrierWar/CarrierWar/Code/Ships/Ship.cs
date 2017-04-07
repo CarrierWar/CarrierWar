@@ -11,144 +11,31 @@ namespace CarrierWar
     /// A Warship
     /// </summary>
     /// <seealso cref="CarrierWar.Unit" />
-    class Ship : Unit
+    public abstract class Ship : Unit
         {
-        
 
-        public double MaxSpeed
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public double CurrentSpeed;
-        //{
-        //get
-        //    {
-        //    throw new System.NotImplementedException();
-        //    }
-
-        //set
-        //    {
-        //    }
-        //}
-
-        public int Weight
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public string Name
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public string Type
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public string HullNumber;
-        //{
-        //get
-        //    {
-        //    throw new System.NotImplementedException();
-        //    }
-
-        //set
-        //    {
-        //    }
-        //}
-
-        public double Course;
-        //{
-        //get
-        //    {
-        //    throw new System.NotImplementedException();
-        //    }
-
-        //set
-        //    {
-        //    }
-        //}
-
-        public int MaxFuel
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public int CurrentFuel
-            {
-            get
-                {
-                throw new System.NotImplementedException();
-                }
-
-            set
-                {
-                }
-            }
-
-        public GameMechanics.Location CurrentLocation;
-        //{
-        //get
-        //    {
-        //    throw new System.NotImplementedException();
-        //    }
-
-        //set
-        //    {
-        //    }
-        //}
-
-
-        public Pushpin PushPin;
+        public double MaxSpeed { get; internal set; }
+        public int Displacement { get; internal set; }
+        public double Speed { get; set; }
+        public double Course { get; set; }
+        public string HullType { get; internal set; }
+        public string HullNumber { get; internal set; }
 
 
         public void Move()
             {
 
-            CurrentLocation = GameMechanics.Movement.CalculateNewPosition(CurrentLocation.Latitude, CurrentLocation.Longititude, Course, 1);
-            PushPin.Location.Latitude = CurrentLocation.Latitude;
-            PushPin.Location.Longitude = CurrentLocation.Longititude;
-
-
-
+            Location = GameMechanics.Movement.CalculateNewPosition(Location.Latitude, Location.Longitude, Course, 1);
+            LocationPushpin.Location.Latitude = Location.Latitude;
+            LocationPushpin.Location.Longitude = Location.Longitude;
             }
+
+
+
+
+
+
+
         }
-    
+
     }

@@ -8,7 +8,7 @@ namespace CarrierWar
     {
     static class GlobalVariables
         {
-
+        
         static public List<CarrierWar.TaskForces.TaskForce> TheFleet = new List<CarrierWar.TaskForces.TaskForce>();
         
         }

@@ -29,7 +29,7 @@ namespace Unit_Tests
             {
 
             global::CarrierWar.Equipment.Radar ThisRadar = new global::CarrierWar.Equipment.Radar("T-1");
-            Assert.AreEqual(false, ThisRadar.Damage(11));
+            Assert.AreEqual(true, ThisRadar.Damage(11));
 
             }
 

@@ -88,6 +88,7 @@
     </Compile>
     <Compile Include="Code\Bases\Airfield.cs" />
     <Compile Include="Code\Equipment\Radar.cs" />
+    <Compile Include="Code\Game Mechanics\GamePlay.cs" />
     <Compile Include="Code\Game Mechanics\Movement.cs" />
     <Compile Include="Code\Game Mechanics\Observation.cs" />
     <Compile Include="Code\Game Mechanics\Timer.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Code\LightCondit.cs" />
     <Compile Include="Code\Ships\CV.cs" />
     <Compile Include="Code\Ships\Ship.cs" />
+    <Compile Include="Code\ShipTypes.cs" />
     <Compile Include="Code\Task Forces\TaskForce.cs" />
     <Compile Include="Code\Unit.cs" />
     <Compile Include="MainWindow.xaml.cs">
