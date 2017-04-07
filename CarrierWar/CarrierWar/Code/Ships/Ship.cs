@@ -25,9 +25,11 @@ namespace CarrierWar
         public void Move()
             {
 
-            Location = GameMechanics.Movement.CalculateNewPosition(Location.Latitude, Location.Longitude, Course, 1);
-            LocationPushpin.Location.Latitude = Location.Latitude;
-            LocationPushpin.Location.Longitude = Location.Longitude;
+            Console.WriteLine(HullNumber + " moved");
+
+            //Location = GameMechanics.Movement.CalculateNewPosition(Location.Latitude, Location.Longitude, Course, 1);
+            //LocationPushpin.Location.Latitude = Location.Latitude;
+            //LocationPushpin.Location.Longitude = Location.Longitude;
             }
 
 

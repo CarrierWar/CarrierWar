@@ -30,12 +30,12 @@ namespace CarrierWar.Ships
                     break;
                 case "CV-5": // Yorktown
                     AircraftCapacity = 50;
-                    MaxSpeed = 20;                    
+                    MaxSpeed = 20;
                     Location.Latitude = -8;
                     Location.Longitude = 155.407007;
                     Course = 100;
                     Speed = 22;
-                    HullNumber = "CV-5";
+                    this.HullNumber = "CV-5";
                     break;
                 case "CV-6": // Enterprise
                     AircraftCapacity = 50;
@@ -44,7 +44,7 @@ namespace CarrierWar.Ships
                     Location.Longitude = 155.407007;
                     Course = 20;
                     Speed = 15;
-                    HullNumber = "CV-6";
+                    this.HullNumber = "CV-6";
                     break;
                 case "CV-7": // Wasp
                     break;
@@ -52,9 +52,9 @@ namespace CarrierWar.Ships
                     break;
                 }
 
-            LocationPushpin.Location = new Location();
-            LocationPushpin.Location.Latitude = Location.Latitude;
-            LocationPushpin.Location.Longitude = Location.Longitude;
+            //LocationPushpin.Location = new Location();
+            //LocationPushpin.Location.Latitude = Location.Latitude;
+            //LocationPushpin.Location.Longitude = Location.Longitude;
 
             }
 

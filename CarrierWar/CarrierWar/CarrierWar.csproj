@@ -92,6 +92,7 @@
     <Compile Include="Code\Game Mechanics\Movement.cs" />
     <Compile Include="Code\Game Mechanics\Observation.cs" />
     <Compile Include="Code\Game Mechanics\Timer.cs" />
+    <Compile Include="Code\GameSetup.cs" />
     <Compile Include="Code\GlobalVariables.cs" />
     <Compile Include="Code\LightCondit.cs" />
     <Compile Include="Code\Ships\CV.cs" />

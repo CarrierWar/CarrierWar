@@ -14,7 +14,7 @@ namespace CarrierWar
         {
         public string Nationality { get; private set; }
         public GameMechanics.Location Location { get; set; } = new GameMechanics.Location();
-        public Pushpin LocationPushpin { get; set; } = new Pushpin();
+        //public Pushpin LocationPushpin { get; set; } = new Pushpin();
         
         }
     }
